@@ -1,0 +1,45 @@
+-- Autor: Renato Perez
+
+-- El Problema de la Mochila, también conocido como el Knapsack Problem, es un desafío de optimización combinatoria en el que se busca determinar la selección óptima de elementos con pesos y valores dados para maximizar el valor total, teniendo en cuenta una restricción de capacidad de peso. Se trabaja con la siguiente variación del problema:
+
+Mochila 0/1: Cada elemento puede ser incluido o excluido en su totalidad, sin permitir fracciones. La tarea es encontrar la combinación de elementos que maximice el valor total sin exceder la capacidad de peso de la mochila.
+
+Este problema tiene aplicaciones prácticas en diversas áreas, como la gestión de recursos, la planificación de proyectos y la toma de decisiones en entornos con limitaciones de recursos. La complejidad del problema hace que sea un área de interés en la teoría de la computación y la investigación de operaciones.
+
+-- Instrucciones codigo
+
+### 1. Requisitos
+
+Asegúrate de tener instalado Python en tu entorno. Puedes descargarlo desde [python.org](https://www.python.org/downloads/).
+
+### 2. Ejecución del Script Principal
+
+	1. Abre tu terminal o IDLE de Python.
+
+	2. Navega al directorio del proyecto.
+
+	3. Ejecuta el script principal.
+
+   Asegúrate de tener las bibliotecas necesarias instaladas. Puedes instalarlas utilizando:
+
+### 3. Datos de Entrada
+
+El script solicitará información específica para el Problema de la Mochila:
+
+- Capacidad de la mochila (ingresa un número entero).
+- Número de individuos en la población (ingresa un número entero).
+- Número de elementos disponibles (ingresa un número entero).
+
+   **Ejemplo de entrada:**
+
+   Ingresar capacidad de la mochila: 50
+   Ingrese numero de individuos: 100
+   Ingrese numero de elementos: 20
+
+### 4. Interpretación de Resultados
+
+Observa la salida en la consola para seguir la evolución del algoritmo a lo largo de las generaciones. Los resultados mostrarán información sobre la población, el peso total y el valor total de las soluciones.
+
+### 5. Personalización y Experimentación
+
+Si deseas personalizar la configuración del algoritmo o probar con diferentes conjuntos de datos, puedes modificar los parámetros directamente en el script.
